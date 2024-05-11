@@ -16,6 +16,13 @@ img {
 .main-content {
   display: flex;
   justify-content: center;
+  gap: 40px;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 170px;
 }
 
 /* do not edit this footer */
