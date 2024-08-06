@@ -75,6 +75,10 @@ button.cancel {
 
 .header {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .header, .icon {
@@ -83,4 +87,8 @@ button.cancel {
 
 .icon {
   flex: 1 0 auto;
+}
+
+.text {
+  margin-bottom: 10px;
 }
