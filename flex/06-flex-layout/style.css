@@ -34,4 +34,10 @@ input {
 .left-links, .right-links {
   display: flex;
   list-style-type: none;
+  gap: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
